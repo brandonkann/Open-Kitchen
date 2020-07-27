@@ -3,10 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E10373F01D874BA92B6393B /* Pods_Open_Kitchen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D213A88FBC7393244317A313 /* Pods_Open_Kitchen.framework */; };
+		CA235B0724BAD2C400F9B0CB /* IQKeyboardManagerSwift in Frameworks */ = {isa = PBXBuildFile; productRef = CA235B0624BAD2C400F9B0CB /* IQKeyboardManagerSwift */; };
+		CA23C73324A0140A00E016DB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA23C73224A0140A00E016DB /* SettingViewController.swift */; };
+		CA5EA8C724B029180028EFAE /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5EA8C624B029180028EFAE /* Core.swift */; };
+		CA6BA5812496D54700E77F85 /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6BA57F2496D54700E77F85 /* CommentCell.swift */; };
+		CA6BA5822496D54700E77F85 /* CommentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CA6BA5802496D54700E77F85 /* CommentCell.xib */; };
+		CA6BA5842496EACF00E77F85 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6BA5832496EACF00E77F85 /* Comment.swift */; };
+		CA6E6B54249ACDAC00AA913C /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6E6B53249ACDAC00AA913C /* CollectionViewController.swift */; };
+		CA6E6B56249ACE3000AA913C /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6E6B55249ACE3000AA913C /* CollectionViewCell.swift */; };
+		CA6E6B58249AE52600AA913C /* LikedRecipes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6E6B57249AE52600AA913C /* LikedRecipes.swift */; };
+		CA759270248710C600F6E590 /* AddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA75926F248710C600F6E590 /* AddRecipeViewController.swift */; };
+		CA759272248762BB00F6E590 /* Ingredient .swift in Sources */ = {isa = PBXBuildFile; fileRef = CA759271248762BB00F6E590 /* Ingredient .swift */; };
+		CA76368F248849DF005FF05B /* Methods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA76368E248849DF005FF05B /* Methods.swift */; };
+		CA786DA82492F1960063BD43 /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA786DA72492F1960063BD43 /* RecipeCell.swift */; };
+		CA786DAA2492F6590063BD43 /* RecipeMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA786DA92492F6590063BD43 /* RecipeMethods.swift */; };
+		CA7FD03E24A44CD100C03B05 /* recipeNameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA7FD03D24A44CD100C03B05 /* recipeNameViewController.swift */; };
+		CA844578248DAC590042C444 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA844577248DAC590042C444 /* Constants.swift */; };
+		CA97B92524AFEBCB0096E963 /* AfterAddRecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97B92424AFEBCB0096E963 /* AfterAddRecipeViewController.swift */; };
+		CA97B92724B01DD30096E963 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA97B92624B01DD30096E963 /* WelcomeViewController.swift */; };
+		CA9B136324A2AD62004F9E82 /* RecipesLikes.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9B136224A2AD62004F9E82 /* RecipesLikes.swift */; };
+		CA9FAD1A24918A5E009793E5 /* RecipeViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA9FAD1924918A5E009793E5 /* RecipeViewerViewController.swift */; };
+		CAAAA4492489C53900358EAF /* Untitled design (4).png in Resources */ = {isa = PBXBuildFile; fileRef = CAAAA4482489C53800358EAF /* Untitled design (4).png */; };
+		CAAAA44D2489D06E00358EAF /* MethodCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAAA44C2489D06E00358EAF /* MethodCell.swift */; };
 		CAAE0D3124856A2E005945E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE0D3024856A2E005945E5 /* AppDelegate.swift */; };
 		CAAE0D3324856A2E005945E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE0D3224856A2E005945E5 /* SceneDelegate.swift */; };
 		CAAE0D3524856A2E005945E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE0D3424856A2E005945E5 /* ViewController.swift */; };
@@ -14,9 +37,39 @@
 		CAAE0D3B24856A2E005945E5 /* Open_Kitchen.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CAAE0D3924856A2E005945E5 /* Open_Kitchen.xcdatamodeld */; };
 		CAAE0D3D24856A32005945E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CAAE0D3C24856A32005945E5 /* Assets.xcassets */; };
 		CAAE0D4024856A32005945E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CAAE0D3E24856A32005945E5 /* LaunchScreen.storyboard */; };
+		CAAE0D4824857CC9005945E5 /* RecipeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE0D4724857CC9005945E5 /* RecipeViewController.swift */; };
+		CAAE0D4C24857D25005945E5 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE0D4B24857D25005945E5 /* ProfileViewController.swift */; };
+		CAAE0D512485ABF3005945E5 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE0D502485ABF3005945E5 /* ImageCell.swift */; };
+		CAAE0D562485B30C005945E5 /* Recipes .swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE0D522485AE9C005945E5 /* Recipes .swift */; };
+		CAAE0D5E2485CB8C005945E5 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CAAE0D5D2485CB8C005945E5 /* GoogleService-Info.plist */; };
+		CAAE0D602485D4E6005945E5 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAAE0D5F2485D4E6005945E5 /* RegisterViewController.swift */; };
+		CAFEAA3C249C25CE00FFD724 /* RecipeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAFEAA3B249C25CE00FFD724 /* RecipeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		8B689B7B10ADAD8F2BD81B2F /* Pods-Open Kitchen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open Kitchen.release.xcconfig"; path = "Target Support Files/Pods-Open Kitchen/Pods-Open Kitchen.release.xcconfig"; sourceTree = "<group>"; };
+		B428E1B970193E03679437E6 /* Pods-Open Kitchen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Open Kitchen.debug.xcconfig"; path = "Target Support Files/Pods-Open Kitchen/Pods-Open Kitchen.debug.xcconfig"; sourceTree = "<group>"; };
+		CA23C73224A0140A00E016DB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		CA5EA8C624B029180028EFAE /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
+		CA6BA57F2496D54700E77F85 /* CommentCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		CA6BA5802496D54700E77F85 /* CommentCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CommentCell.xib; sourceTree = "<group>"; };
+		CA6BA5832496EACF00E77F85 /* Comment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		CA6E6B53249ACDAC00AA913C /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		CA6E6B55249ACE3000AA913C /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		CA6E6B57249AE52600AA913C /* LikedRecipes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikedRecipes.swift; sourceTree = "<group>"; };
+		CA75926F248710C600F6E590 /* AddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecipeViewController.swift; sourceTree = "<group>"; };
+		CA759271248762BB00F6E590 /* Ingredient .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ingredient .swift"; sourceTree = "<group>"; };
+		CA76368E248849DF005FF05B /* Methods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Methods.swift; sourceTree = "<group>"; };
+		CA786DA72492F1960063BD43 /* RecipeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		CA786DA92492F6590063BD43 /* RecipeMethods.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeMethods.swift; sourceTree = "<group>"; };
+		CA7FD03D24A44CD100C03B05 /* recipeNameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = recipeNameViewController.swift; sourceTree = "<group>"; };
+		CA844577248DAC590042C444 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CA97B92424AFEBCB0096E963 /* AfterAddRecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterAddRecipeViewController.swift; sourceTree = "<group>"; };
+		CA97B92624B01DD30096E963 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		CA9B136224A2AD62004F9E82 /* RecipesLikes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesLikes.swift; sourceTree = "<group>"; };
+		CA9FAD1924918A5E009793E5 /* RecipeViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewerViewController.swift; sourceTree = "<group>"; };
+		CAAAA4482489C53800358EAF /* Untitled design (4).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled design (4).png"; sourceTree = "<group>"; };
+		CAAAA44C2489D06E00358EAF /* MethodCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MethodCell.swift; sourceTree = "<group>"; };
 		CAAE0D2D24856A2E005945E5 /* Open Kitchen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Open Kitchen.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAAE0D3024856A2E005945E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CAAE0D3224856A2E005945E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +79,14 @@
 		CAAE0D3C24856A32005945E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CAAE0D3F24856A32005945E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CAAE0D4124856A32005945E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CAAE0D4724857CC9005945E5 /* RecipeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeViewController.swift; sourceTree = "<group>"; };
+		CAAE0D4B24857D25005945E5 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		CAAE0D502485ABF3005945E5 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		CAAE0D522485AE9C005945E5 /* Recipes .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Recipes .swift"; path = "Open Kitchen/Controller/Recipes .swift"; sourceTree = SOURCE_ROOT; };
+		CAAE0D5D2485CB8C005945E5 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		CAAE0D5F2485D4E6005945E5 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CAFEAA3B249C25CE00FFD724 /* RecipeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCollectionViewCell.swift; sourceTree = "<group>"; };
+		D213A88FBC7393244317A313 /* Pods_Open_Kitchen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Open_Kitchen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +94,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E10373F01D874BA92B6393B /* Pods_Open_Kitchen.framework in Frameworks */,
+				CA235B0724BAD2C400F9B0CB /* IQKeyboardManagerSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3362A245E83A9A036947DD43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B428E1B970193E03679437E6 /* Pods-Open Kitchen.debug.xcconfig */,
+				8B689B7B10ADAD8F2BD81B2F /* Pods-Open Kitchen.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EC0B6470923D36715A36814 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D213A88FBC7393244317A313 /* Pods_Open_Kitchen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CAAE0D2424856A2E005945E5 = {
 			isa = PBXGroup;
 			children = (
 				CAAE0D2F24856A2E005945E5 /* Open Kitchen */,
 				CAAE0D2E24856A2E005945E5 /* Products */,
+				3362A245E83A9A036947DD43 /* Pods */,
+				8EC0B6470923D36715A36814 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,14 +142,58 @@
 			children = (
 				CAAE0D3024856A2E005945E5 /* AppDelegate.swift */,
 				CAAE0D3224856A2E005945E5 /* SceneDelegate.swift */,
-				CAAE0D3424856A2E005945E5 /* ViewController.swift */,
-				CAAE0D3624856A2E005945E5 /* Main.storyboard */,
-				CAAE0D3C24856A32005945E5 /* Assets.xcassets */,
+				CAAE0D4D24857D57005945E5 /* Controller */,
+				CAAE0D4E24857D70005945E5 /* View */,
 				CAAE0D3E24856A32005945E5 /* LaunchScreen.storyboard */,
+				CAAE0D3C24856A32005945E5 /* Assets.xcassets */,
+				CAAAA4482489C53800358EAF /* Untitled design (4).png */,
 				CAAE0D4124856A32005945E5 /* Info.plist */,
+				CAAE0D5D2485CB8C005945E5 /* GoogleService-Info.plist */,
 				CAAE0D3924856A2E005945E5 /* Open_Kitchen.xcdatamodeld */,
+				CA844577248DAC590042C444 /* Constants.swift */,
 			);
 			path = "Open Kitchen";
+			sourceTree = "<group>";
+		};
+		CAAE0D4D24857D57005945E5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CAAE0D522485AE9C005945E5 /* Recipes .swift */,
+				CAAE0D4724857CC9005945E5 /* RecipeViewController.swift */,
+				CAAE0D4B24857D25005945E5 /* ProfileViewController.swift */,
+				CAAE0D3424856A2E005945E5 /* ViewController.swift */,
+				CAAE0D502485ABF3005945E5 /* ImageCell.swift */,
+				CAAE0D5F2485D4E6005945E5 /* RegisterViewController.swift */,
+				CA75926F248710C600F6E590 /* AddRecipeViewController.swift */,
+				CA759271248762BB00F6E590 /* Ingredient .swift */,
+				CAAAA44C2489D06E00358EAF /* MethodCell.swift */,
+				CA76368E248849DF005FF05B /* Methods.swift */,
+				CA9FAD1924918A5E009793E5 /* RecipeViewerViewController.swift */,
+				CA786DA72492F1960063BD43 /* RecipeCell.swift */,
+				CA786DA92492F6590063BD43 /* RecipeMethods.swift */,
+				CA6BA57F2496D54700E77F85 /* CommentCell.swift */,
+				CA6BA5802496D54700E77F85 /* CommentCell.xib */,
+				CA6E6B53249ACDAC00AA913C /* CollectionViewController.swift */,
+				CA6E6B55249ACE3000AA913C /* CollectionViewCell.swift */,
+				CA6BA5832496EACF00E77F85 /* Comment.swift */,
+				CA6E6B57249AE52600AA913C /* LikedRecipes.swift */,
+				CAFEAA3B249C25CE00FFD724 /* RecipeCollectionViewCell.swift */,
+				CA23C73224A0140A00E016DB /* SettingViewController.swift */,
+				CA9B136224A2AD62004F9E82 /* RecipesLikes.swift */,
+				CA7FD03D24A44CD100C03B05 /* recipeNameViewController.swift */,
+				CA97B92424AFEBCB0096E963 /* AfterAddRecipeViewController.swift */,
+				CA97B92624B01DD30096E963 /* WelcomeViewController.swift */,
+				CA5EA8C624B029180028EFAE /* Core.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CAAE0D4E24857D70005945E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CAAE0D3624856A2E005945E5 /* Main.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,15 +203,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CAAE0D4424856A32005945E5 /* Build configuration list for PBXNativeTarget "Open Kitchen" */;
 			buildPhases = (
+				EA289B7E40E4102A6483D4E1 /* [CP] Check Pods Manifest.lock */,
 				CAAE0D2924856A2E005945E5 /* Sources */,
 				CAAE0D2A24856A2E005945E5 /* Frameworks */,
 				CAAE0D2B24856A2E005945E5 /* Resources */,
+				52A360E2FCFE7C45320FA3ED /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "Open Kitchen";
+			packageProductDependencies = (
+				CA235B0624BAD2C400F9B0CB /* IQKeyboardManagerSwift */,
+			);
 			productName = "Open Kitchen";
 			productReference = CAAE0D2D24856A2E005945E5 /* Open Kitchen.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +245,9 @@
 				Base,
 			);
 			mainGroup = CAAE0D2424856A2E005945E5;
+			packageReferences = (
+				CA235B0524BAD2C400F9B0CB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */,
+			);
 			productRefGroup = CAAE0D2E24856A2E005945E5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -129,6 +263,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				CAAE0D4024856A32005945E5 /* LaunchScreen.storyboard in Resources */,
+				CAAAA4492489C53900358EAF /* Untitled design (4).png in Resources */,
+				CAAE0D5E2485CB8C005945E5 /* GoogleService-Info.plist in Resources */,
+				CA6BA5822496D54700E77F85 /* CommentCell.xib in Resources */,
 				CAAE0D3D24856A32005945E5 /* Assets.xcassets in Resources */,
 				CAAE0D3824856A2E005945E5 /* Main.storyboard in Resources */,
 			);
@@ -136,15 +273,82 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		52A360E2FCFE7C45320FA3ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Open Kitchen/Pods-Open Kitchen-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Open Kitchen/Pods-Open Kitchen-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Open Kitchen/Pods-Open Kitchen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA289B7E40E4102A6483D4E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Open Kitchen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CAAE0D2924856A2E005945E5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAFEAA3C249C25CE00FFD724 /* RecipeCollectionViewCell.swift in Sources */,
+				CA6BA5812496D54700E77F85 /* CommentCell.swift in Sources */,
 				CAAE0D3B24856A2E005945E5 /* Open_Kitchen.xcdatamodeld in Sources */,
+				CAAE0D602485D4E6005945E5 /* RegisterViewController.swift in Sources */,
+				CA6E6B58249AE52600AA913C /* LikedRecipes.swift in Sources */,
+				CA786DAA2492F6590063BD43 /* RecipeMethods.swift in Sources */,
 				CAAE0D3524856A2E005945E5 /* ViewController.swift in Sources */,
 				CAAE0D3124856A2E005945E5 /* AppDelegate.swift in Sources */,
+				CA786DA82492F1960063BD43 /* RecipeCell.swift in Sources */,
 				CAAE0D3324856A2E005945E5 /* SceneDelegate.swift in Sources */,
+				CA23C73324A0140A00E016DB /* SettingViewController.swift in Sources */,
+				CA844578248DAC590042C444 /* Constants.swift in Sources */,
+				CAAE0D562485B30C005945E5 /* Recipes .swift in Sources */,
+				CA97B92724B01DD30096E963 /* WelcomeViewController.swift in Sources */,
+				CA6E6B56249ACE3000AA913C /* CollectionViewCell.swift in Sources */,
+				CA9B136324A2AD62004F9E82 /* RecipesLikes.swift in Sources */,
+				CAAE0D4C24857D25005945E5 /* ProfileViewController.swift in Sources */,
+				CA9FAD1A24918A5E009793E5 /* RecipeViewerViewController.swift in Sources */,
+				CA5EA8C724B029180028EFAE /* Core.swift in Sources */,
+				CAAE0D512485ABF3005945E5 /* ImageCell.swift in Sources */,
+				CA759272248762BB00F6E590 /* Ingredient .swift in Sources */,
+				CA6BA5842496EACF00E77F85 /* Comment.swift in Sources */,
+				CA7FD03E24A44CD100C03B05 /* recipeNameViewController.swift in Sources */,
+				CA759270248710C600F6E590 /* AddRecipeViewController.swift in Sources */,
+				CA97B92524AFEBCB0096E963 /* AfterAddRecipeViewController.swift in Sources */,
+				CA76368F248849DF005FF05B /* Methods.swift in Sources */,
+				CA6E6B54249ACDAC00AA913C /* CollectionViewController.swift in Sources */,
+				CAAAA44D2489D06E00358EAF /* MethodCell.swift in Sources */,
+				CAAE0D4824857CC9005945E5 /* RecipeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +408,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -264,6 +469,7 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
@@ -286,37 +492,47 @@
 		};
 		CAAE0D4524856A32005945E5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B428E1B970193E03679437E6 /* Pods-Open Kitchen.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JBGJ7MNBUN;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Open Kitchen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon.Open-Kitchen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		CAAE0D4624856A32005945E5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B689B7B10ADAD8F2BD81B2F /* Pods-Open Kitchen.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = JBGJ7MNBUN;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = "Open Kitchen/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.brandon.Open-Kitchen";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -342,6 +558,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		CA235B0524BAD2C400F9B0CB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/hackiftekhar/IQKeyboardManager";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		CA235B0624BAD2C400F9B0CB /* IQKeyboardManagerSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = CA235B0524BAD2C400F9B0CB /* XCRemoteSwiftPackageReference "IQKeyboardManager" */;
+			productName = IQKeyboardManagerSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		CAAE0D3924856A2E005945E5 /* Open_Kitchen.xcdatamodeld */ = {

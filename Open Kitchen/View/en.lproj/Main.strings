@@ -1,0 +1,63 @@
+
+/* Class = "UITextField"; text = "Last Name "; ObjectID = "0lz-KZ-8FG"; */
+"0lz-KZ-8FG.text" = "Last Name ";
+
+/* Class = "UITabBarItem"; title = "Item"; ObjectID = "560-kb-ee8"; */
+"560-kb-ee8.title" = "Item";
+
+/* Class = "UITextField"; text = "Password"; ObjectID = "6VV-0v-s5N"; */
+"6VV-0v-s5N.text" = "Password";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "BzO-ko-XDz"; */
+"BzO-ko-XDz.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Register"; ObjectID = "E3I-Tv-1X8"; */
+"E3I-Tv-1X8.text" = "Register";
+
+/* Class = "UITabBarItem"; title = "My Favorites"; ObjectID = "Ii9-4l-uqZ"; */
+"Ii9-4l-uqZ.title" = "My Favorites";
+
+/* Class = "UITabBarItem"; title = "Recipes"; ObjectID = "Me3-MY-srh"; */
+"Me3-MY-srh.title" = "Recipes";
+
+/* Class = "UILabel"; text = "Login"; ObjectID = "QWp-ER-zZH"; */
+"QWp-ER-zZH.text" = "Login";
+
+/* Class = "UILabel"; text = "Password"; ObjectID = "RfT-Si-ddt"; */
+"RfT-Si-ddt.text" = "Password";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "Yun-Jd-rLM"; */
+"Yun-Jd-rLM.title" = "Profile";
+
+/* Class = "UISearchBar"; placeholder = "What are you cooking?"; ObjectID = "ZCj-0g-cLk"; */
+"ZCj-0g-cLk.placeholder" = "What are you cooking?";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "aRl-9L-9TV"; */
+"aRl-9L-9TV.placeholder" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Already have an Account? Swipe Down"; ObjectID = "dcT-tn-qVn"; */
+"dcT-tn-qVn.normalTitle" = "Already have an Account? Swipe Down";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "hwM-qJ-T3v"; */
+"hwM-qJ-T3v.normalTitle" = "Login";
+
+/* Class = "UIButton"; normalTitle = "Dont have an account?"; ObjectID = "oZ3-n4-rbj"; */
+"oZ3-n4-rbj.normalTitle" = "Dont have an account?";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "oZX-7R-IPR"; */
+"oZX-7R-IPR.text" = "1";
+
+/* Class = "UIButton"; normalTitle = "Tap to agree to the Open Kitchen User Agreement & Privacy Policy"; ObjectID = "u5d-vV-JEA"; */
+"u5d-vV-JEA.normalTitle" = "Tap to agree to the Open Kitchen User Agreement & Privacy Policy";
+
+/* Class = "UITextField"; text = "First Name "; ObjectID = "vyI-zR-L3G"; */
+"vyI-zR-L3G.text" = "First Name ";
+
+/* Class = "UITextField"; text = "Email"; ObjectID = "wYh-Zg-AdP"; */
+"wYh-Zg-AdP.text" = "Email";
+
+/* Class = "UIButton"; normalTitle = "Agree and Login"; ObjectID = "y3u-sa-yAb"; */
+"y3u-sa-yAb.normalTitle" = "Agree and Login";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "yRa-HB-jjk"; */
+"yRa-HB-jjk.text" = "Name";
